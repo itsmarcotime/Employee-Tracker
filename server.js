@@ -5,7 +5,7 @@ const promptProject = () => {
 
     return inquirer.prompt(
         {
-            type: 'selectLine',
+            type: 'list',
             name: 'line',
             message: 'Select a option.',
             choices: ['veiw all departments', 'veiw all roles', 'view all employees', 'add a department', 'add a role', 'add an employee']
